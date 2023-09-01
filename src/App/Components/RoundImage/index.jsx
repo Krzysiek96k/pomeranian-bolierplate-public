@@ -1,6 +1,6 @@
 import './styles.css';
 
-export const RoundImage = ({ url, size = '150px' }) => {
+export const RoundImage = ({ url, size = '50px' }) => {
 
   return (
 
