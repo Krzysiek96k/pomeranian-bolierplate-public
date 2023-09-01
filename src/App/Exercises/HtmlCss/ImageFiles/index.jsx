@@ -1,7 +1,12 @@
+import { RoundImage } from '../../../Components/RoundImage';
 import './styles.css';
 
 export function Exercise() {
-  return <div>
-    <img src="https://premium4animals.pl/upload/premium4/blog/Kot-bengalski-brazowy.jpg" />
-  </div>
+  return (
+    <>
+       <RoundImage url="https://cdn.pixabay.com/photo/2017/09/01/00/15/png-2702691_960_720.png"/>
+       <RoundImage url="https://pngimg.com/uploads/mario/mario_PNG125.png" size='100px'/>
+    </>
+  )
+ 
 }
