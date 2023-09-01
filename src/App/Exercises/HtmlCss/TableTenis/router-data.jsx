@@ -3,9 +3,9 @@ import React from 'react';
 import { Exercise } from './index';
 
 export const blockRouterMetaData = {
-  path: 'table-tennis',
+  path: 'html-tables',
   date: '27-08-2023',
-  linkLabel: 'Tabelki - style',
+  linkLabel: 'Pierwsze tabelki',
   blockNo: 14,
   element: <Exercise />,
   tags: ['tables', 'HTML', 'CSS'],
