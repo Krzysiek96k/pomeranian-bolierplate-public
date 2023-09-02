@@ -13,6 +13,7 @@ import { blockRouterMetaData as HtmlTables } from './HtmlTables/router-data';
 import { blockRouterMetaData as TableTenis } from './TableTenis/router-data';
 import { blockRouterMetaData as FloatsAndPositioningExercises } from './FloatsAndPositioningExercises/router-data';
 import { blockRouterMetaData as FloatsAndPositioning } from './FloatsAndPositioning/router-data';
+import { blockRouterMetaData as RWD } from './RWD/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaData121220231,
@@ -28,5 +29,6 @@ export const blockRouterMetaData = [
   TableTenis,
   FloatsAndPositioningExercises,
   FloatsAndPositioning,
+  RWD,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
